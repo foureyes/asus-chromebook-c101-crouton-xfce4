@@ -53,7 +53,13 @@ Sounds starts off muted despite volume settings.
     sudo mkdir -p /data/db
     sudo chown user:user /data/db
     ```
-    
+3. other <br>```
+    sudo apt-get install git
+    sudo apt-get install ruby ruby-dev npm
+    sudo gem install github-pages
+    sudo npm install -g grunt
+    ```
+
 ## Tested
 
 * wifi
@@ -68,3 +74,8 @@ Sounds starts off muted despite volume settings.
 
 * bluetooth
 * rotation
+
+## Todo
+
+* brightness, volume, 
+
