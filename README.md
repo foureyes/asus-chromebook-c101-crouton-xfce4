@@ -54,3 +54,17 @@ Sounds starts off muted despite volume settings.
     sudo chown user:user /data/db
     ```
     
+## Tested
+
+* wifi
+* extending monitor (via usbc dongle)
+* trackpad
+* audio
+* video
+* two finger scrolling
+* accessibility zoom (alt + scroll)
+
+## Haven't Tried:
+
+* bluetooth
+* rotation
