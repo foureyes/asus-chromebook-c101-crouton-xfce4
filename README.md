@@ -19,8 +19,8 @@ via [Crouton Wiki on Formatting SD Card](https://github.com/dnschneid/crouton/wi
 
 via [Crouton Wiki Article on Installing to SD Card](https://github.com/dnschneid/crouton/wiki/How-To-Install-To-External-Drive)
 
-1. run crouton (-r release, -t type, -p path/to/chroots: <br>
-    sudo sh -e ~/Downloads/crouton -r artful -t xfce -p /media/removable/sdcards32/
+1. run crouton (-r release, -t type, -p path/to/chroots, -n name-of-chroot): <br>
+    sudo sh -e ~/Downloads/crouton -r artful -t xfce -p /media/removable/sdcards32/ -n xfce
 2. waaaaaaaiiiiiit
 
 ## Trackpad
