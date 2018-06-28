@@ -23,6 +23,10 @@ via [Crouton Wiki Article on Installing to SD Card](https://github.com/dnschneid
     sudo sh -e ~/Downloads/crouton -r artful -t xfce -p /media/removable/sdcards32/ -n xfce
 2. waaaaaaaiiiiiit
 
+## Start
+
+```sudo sh /media/removable/sdcard32/bin/startxfce4```
+
 ## Trackpad
 
 The elan driver doesn't seem to work _at all_ (cursor freezes, no multi-touch, etc.). Replace with synaptics via [askubuntu question](https://askubuntu.com/questions/832094/synaptics-touchpadd-drivers-for-16-04)
@@ -53,7 +57,8 @@ Sounds starts off muted despite volume settings.
     sudo mkdir -p /data/db
     sudo chown user:user /data/db
     ```
-3. other <br>```
+3. other <br>
+    ```
     sudo apt-get install git
     sudo apt-get install ruby ruby-dev npm
     sudo gem install github-pages
